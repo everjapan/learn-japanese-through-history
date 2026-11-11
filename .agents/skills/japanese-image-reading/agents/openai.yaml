@@ -1,0 +1,4 @@
+interface:
+  display_name: "日语图片对照阅读"
+  short_description: "按原书页码整理日文图片，生成原文、逐段中文翻译、Nanami 朗读与注音阅读页"
+  default_prompt: "使用 $japanese-image-reading 按图片页码生成日文原文、逐段中文翻译、朗读音频和带假名的阅读页，并更新合集目录。"

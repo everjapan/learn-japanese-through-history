@@ -1,0 +1,4 @@
+interface:
+  display_name: "日语阅读知识点"
+  short_description: "为日中对照 Markdown 中的语法、词汇和表达补充简短中文解释"
+  default_prompt: "使用 $japanese-reading-notes 为这个翻译 Markdown 中的知识点补充简洁中文解释。"
