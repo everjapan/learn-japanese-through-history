@@ -43,7 +43,7 @@ python3 <skill-dir>/scripts/build_reading.py <article.json> --root <output-root>
 
 输出为：
 
-- `translations/<stem>.md`：标题、副标题及每段日文后紧接中文译文，不含注音。
+- `translations/<stem>.md`：标题、副标题及每段日文后紧接中文译文，不含注音；各组日中对照用独立一行的 `---` 分隔，不标“第几段”等序号。中文译文（包括副标题中译）使用 `>` 引用格式，多行译文逐行加 `>`。
 - `articles/<stem>.md`：只有日文标题、副标题和正文，供独立批注。
 - `readings/<stem>.html`：每段日文注音后紧接中文，默认显示译文；有“隐藏／显示中文翻译”按钮，假名开关独立。标题与副标题的中译也随译文开关隐藏。
 

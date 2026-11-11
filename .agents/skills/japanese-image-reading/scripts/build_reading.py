@@ -119,10 +119,13 @@ def build(article, root):
         audio_html = f'<audio id="audio" controls preload="metadata" src="{audio_url}"></audio><label>播放速度 <select id="speed"><option value="0.8">0.8×</option><option value="1" selected>1×</option><option value="1.15">1.15×</option></select></label><a href="{audio_url}" download>下载 MP3</a>'
 
     md_title = f'# {title} / {title_zh}\n'
-    subtitle_md = f'\n{subtitle}\n\n{subtitle_zh}\n' if subtitle else ''
+    def quote_translation(text):
+        return '\n'.join('> ' + line if line else '>' for line in text.splitlines())
+
+    subtitle_md = f'\n{subtitle}\n\n{quote_translation(subtitle_zh)}\n' if subtitle else ''
     translation = md_title + subtitle_md
-    for index, p in enumerate(paragraphs, 1):
-        translation += f'\n## 第 {index} 段\n\n{p["ja"]}\n\n{p["zh"]}\n'
+    for p in paragraphs:
+        translation += f'\n---\n\n{p["ja"]}\n\n{quote_translation(p["zh"])}\n'
     original = f'# {title}\n\n' + (subtitle + '\n\n' if subtitle else '') + '\n\n'.join(p['ja'] for p in paragraphs) + '\n'
     subtitle_block = f'<div class="subtitle">{subtitle_html}</div><p class="zh subtitle-zh" lang="zh-CN">{html.escape(subtitle_zh)}</p>' if subtitle else ''
     ruby_button = '<button id="ruby-toggle" type="button" aria-pressed="true">隐藏假名</button>' if any('<ruby>' in t for t in [title_html, subtitle_html, *pairs]) else ''

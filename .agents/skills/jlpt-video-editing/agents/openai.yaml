@@ -1,0 +1,4 @@
+interface:
+  display_name: "JLPT 教学视频剪辑"
+  short_description: "依据教学逐字稿精剪中日文视频，保留原声画幅并完成降噪及响度统一"
+  default_prompt: "使用 $jlpt-video-editing 按最新脚本剪辑当前项目的视频，完成导出和检查后交付成片。"
