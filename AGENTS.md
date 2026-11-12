@@ -1,5 +1,6 @@
 # 日语阅读项目
 
+- 用户讲述音频的系列名称为「两分钟日本史」（原名「口述日本史」）。
 - 图片导入使用 `japanese-image-reading`，完整流程见 [.agents/skills/japanese-image-reading/SKILL.md](.agents/skills/japanese-image-reading/SKILL.md)：转录到 `articles/`、逐段翻译到 `translations/`、生成 Nanami MP3 和 `readings/` 页面，更新合集。
 - 知识点解释使用 `japanese-reading-notes`，见 [.agents/skills/japanese-reading-notes/SKILL.md](.agents/skills/japanese-reading-notes/SKILL.md)。优先补全用户在翻译中选出的条目，保留正文、译文及加粗标记。
 - 用户录音剪辑使用 `japanese-reading-audio-editing`，见 [.agents/skills/japanese-reading-audio-editing/SKILL.md](.agents/skills/japanese-reading-audio-editing/SKILL.md)：对照 translations 清理重录、优化原声和统一响度，成品放 `output/`，保留原始录音及中文讲述。

@@ -60,9 +60,12 @@ def main():
     parser.add_argument("--lufs", type=float, default=-16)
     parser.add_argument("--peak", type=float, default=-1.5)
     parser.add_argument("--lra", type=float, default=7)
+    parser.add_argument("--tolerance", type=float, default=0.5)
     args = parser.parse_args()
     if not (-70 <= args.lufs <= -5 and -8 <= args.peak <= 0 and 1 <= args.lra <= 50):
         parser.error("Invalid loudnorm target range")
+    if not 0.05 <= args.tolerance <= 1:
+        parser.error("Loudness tolerance must be between 0.05 and 1 LU")
     source, output, work = (p.resolve() for p in (args.input, args.output, args.work))
     if not source.is_file() or output.exists() or output.suffix.lower() != ".mp3":
         parser.error("Input must exist; output must be a new .mp3 file")
@@ -78,7 +81,13 @@ def main():
     output.parent.mkdir(parents=True, exist_ok=True)
     (work / "input-probe.json").write_text(json.dumps(source_info, indent=2) + "\n")
     upstream = args.upstream_filter.strip().rstrip(",")
+    # Very short clips can fall back to peak-constrained linear processing.
+    # Give the dynamic stage context, then remove only this added silence.
+    short_clip = source_duration < 3
+    if short_clip:
+        upstream = ",".join(part for part in (upstream, "apad=whole_dur=5") if part)
     prefix = upstream + "," if upstream else ""
+    trim = f",atrim=end={source_duration:.9f}" if short_clip else ""
     base = [ffmpeg, "-hide_banner", "-nostats", "-nostdin", "-n", "-i", str(source),
             "-map", "0:a:0", "-vn"]
     normalize_i, render_peak = args.lufs, args.peak - 0.3
@@ -95,7 +104,7 @@ def main():
             ":linear=false:print_format=json"
         ).format(**first)
         master, candidate = work / f"master-{attempt}.wav", work / f"candidate-{attempt}.mp3"
-        run_logged(base + ["-af", prefix + second, "-map_metadata", "-1", "-ar",
+        run_logged(base + ["-af", prefix + second + trim, "-map_metadata", "-1", "-ar",
                           str(sample_rate), "-ac", str(channels), "-c:a", "pcm_s24le", str(master)],
                    work / f"pass2-{attempt}.log")
         run_logged([ffmpeg, "-hide_banner", "-nostats", "-nostdin", "-n", "-i", str(master),
@@ -109,7 +118,7 @@ def main():
         ))
         attempts.append({"attempt": attempt, "first_pass": first, "encoded_measurement": final})
         actual_i, actual_peak = float(final["input_i"]), float(final["input_tp"])
-        if abs(actual_i - args.lufs) <= 0.5 and actual_peak <= args.peak:
+        if abs(actual_i - args.lufs) <= args.tolerance and actual_peak <= args.peak:
             break
         normalize_i = max(-70, min(-5, normalize_i + args.lufs - actual_i))
         render_peak -= max(0, actual_peak - args.peak) + 0.2
@@ -133,6 +142,7 @@ def main():
         "output_sha256": sha256(output), "duration_seconds": final_duration,
         "sample_rate": sample_rate, "channels": channels,
         "upstream_filter": upstream, "target_lufs": args.lufs, "peak_ceiling_dbtp": args.peak,
+        "loudness_tolerance_lu": args.tolerance, "short_clip_padding_removed": short_clip,
         "actual_lufs": actual_i, "actual_true_peak_dbtp": actual_peak,
         "actual_lra_lu": float(final["input_lra"]), "attempts": attempts,
         "full_decode_passed": True,
