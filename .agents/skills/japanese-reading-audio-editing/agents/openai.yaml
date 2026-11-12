@@ -1,0 +1,4 @@
+interface:
+  display_name: "日语阅读录音精剪"
+  short_description: "按翻译稿清理阅读录音中的重录和长停顿，优化原声并统一响度"
+  default_prompt: "使用 $japanese-reading-audio-editing，根据对应 translations 文稿精剪这条录音，优化声音并统一响度。"
