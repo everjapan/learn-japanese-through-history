@@ -1,8 +1,12 @@
 # 读历史学日语
 
-37 篇日本史短文：原始时代 2 篇、江户时代 10 篇、幕末与近现代 25 篇。每篇提供无注音 Markdown 原文、可切换假名的阅读页，以及 Nanami 日语朗读。
+45 篇日本史短文：原始时代 10 篇、江户时代 10 篇、幕末与近现代 25 篇。每篇提供无注音 Markdown 原文、可切换假名的阅读页，以及 Nanami 日语朗读。
 
-《人類のルーツ》和《旧石器時代人の生活》附逐段中文翻译，默认显示，可用“隐藏中文翻译”按钮收起；假名可独立切换。[人类的起源](readings/022-%E4%BA%BA%E9%A1%9E%E3%81%AE%E3%83%AB%E3%83%BC%E3%83%84.html) · [旧石器时代人们的生活](readings/024-%E6%97%A7%E7%9F%B3%E5%99%A8%E6%99%82%E4%BB%A3%E4%BA%BA%E3%81%AE%E7%94%9F%E6%B4%BB.html) · [日中对照文本](translations/)。
+原始时代的 10 篇短文（第 22–41 页）均附逐段中文翻译，默认显示，可用“隐藏中文翻译”按钮收起；假名可独立切换。[人类的起源](readings/022-%E4%BA%BA%E9%A1%9E%E3%81%AE%E3%83%AB%E3%83%BC%E3%83%84.html) · [从绳文人到弥生人](readings/040-%E7%B8%84%E6%96%87%E4%BA%BA%E3%81%8B%E3%82%89%E5%BC%A5%E7%94%9F%E4%BA%BA%E3%81%B8.html) · [日中对照文本](translations/)。
+
+[全书目录](book-toc.md) 已根据 8 张原书目录照片整理：5 章、116 篇正文、5 篇专栏，另列序言与附录。首页支持章节展开、标题／关键词／页码搜索和阅读状态筛选；已生成的 45 篇可直接进入阅读，其余标为待更新。
+
+目录中的原书起始页码保存在 `book-toc.json`，与现有文件编号、`catalog.json` 中的旧来源页码分别记录。部分旧文件编号比本次目录照片中的页码大 8，目录按标题关联原有文件，保留文件名和批注；照片未标出的序言、索引页码留空。
 
 ## 阅读与批注
 
@@ -26,12 +30,13 @@ Pages 设置：Settings → Pages → Deploy from a branch → `main` → `/ (ro
 
 | 目录 / 文件 | 内容 |
 | --- | --- |
-| `articles/` | 37 篇无注音 Markdown，供批注 |
+| `articles/` | 45 篇无注音 Markdown，供批注 |
 | `translations/` | 日中对照 Markdown |
-| `readings/` | 37 个注音阅读页 |
-| `audio/` | 37 个 MP3 朗读音频 |
+| `readings/` | 45 个注音阅读页 |
+| `audio/` | 45 个 MP3 朗读音频 |
 | `texts/` | 原文与注音纯文本 |
 | `catalog.json` | 标题、副标题、页码及音频时长 |
+| `book-toc.json` / `book-toc.md` | 已核对的全书目录数据与可下载文稿 |
 | `index.html` | 阅读与连续播放合集入口 |
 
 所有网页资源使用相对路径，适用于项目子路径与本地离线阅读。正文沿用图片中的用字，文章内容不含插图、图说或练习题。音频使用 `ja-JP-NanamiNeural`，生成语速为 `-5%`。
@@ -43,6 +48,8 @@ Pages 设置：Settings → Pages → Deploy from a branch → `main` → `/ (ro
 
 两个 skill 的项目版本分别位于 [.agents/skills/japanese-image-reading/](.agents/skills/japanese-image-reading/SKILL.md) 和 [.agents/skills/japanese-reading-notes/](.agents/skills/japanese-reading-notes/SKILL.md)。已核对的文章 JSON 存于 `texts/`，便于重新生成页面与朗读；重复执行保留已有 Markdown。
 
+仅修改目录时运行 `python3 scripts/build_toc.py`，根据 `book-toc.json` 和已上线的 `catalog.json` 更新首页及 `book-toc.md`。图片导入流程同步合集时也会自动刷新全书目录。
+
 文件前缀统一为三位起始页码：《人類のルーツ》为 `022`，原 001–035 篇依次为 `198、200、…、266`。目录中的“已有来源页码”保留此前转录记录；编号校正不改写尚未重新核对的旧图来源。
 
 ## 文章目录
@@ -51,6 +58,14 @@ Pages 设置：Settings → Pages → Deploy from a branch → `main` → `/ (ro
 | --- | --- | --- | --- |
 | 022 | [人類のルーツ](articles/022-%E4%BA%BA%E9%A1%9E%E3%81%AE%E3%83%AB%E3%83%BC%E3%83%84.md) | [阅读](readings/022-%E4%BA%BA%E9%A1%9E%E3%81%AE%E3%83%AB%E3%83%BC%E3%83%84.html) | 22–23 |
 | 024 | [旧石器時代人の生活](articles/024-%E6%97%A7%E7%9F%B3%E5%99%A8%E6%99%82%E4%BB%A3%E4%BA%BA%E3%81%AE%E7%94%9F%E6%B4%BB.md) | [阅读](readings/024-%E6%97%A7%E7%9F%B3%E5%99%A8%E6%99%82%E4%BB%A3%E4%BA%BA%E3%81%AE%E7%94%9F%E6%B4%BB.html) | 24–25 |
+| 026 | [縄文時代のはじまり](articles/026-%E7%B8%84%E6%96%87%E6%99%82%E4%BB%A3%E3%81%AE%E3%81%AF%E3%81%98%E3%81%BE%E3%82%8A.md) | [阅读](readings/026-%E7%B8%84%E6%96%87%E6%99%82%E4%BB%A3%E3%81%AE%E3%81%AF%E3%81%98%E3%81%BE%E3%82%8A.html) | 26–27 |
+| 028 | [縄文文化の特徴](articles/028-%E7%B8%84%E6%96%87%E6%96%87%E5%8C%96%E3%81%AE%E7%89%B9%E5%BE%B4.md) | [阅读](readings/028-%E7%B8%84%E6%96%87%E6%96%87%E5%8C%96%E3%81%AE%E7%89%B9%E5%BE%B4.html) | 28–29 |
+| 030 | [縄文土器の変遷](articles/030-%E7%B8%84%E6%96%87%E5%9C%9F%E5%99%A8%E3%81%AE%E5%A4%89%E9%81%B7.md) | [阅读](readings/030-%E7%B8%84%E6%96%87%E5%9C%9F%E5%99%A8%E3%81%AE%E5%A4%89%E9%81%B7.html) | 30–31 |
+| 032 | [縄文人の食生活](articles/032-%E7%B8%84%E6%96%87%E4%BA%BA%E3%81%AE%E9%A3%9F%E7%94%9F%E6%B4%BB.md) | [阅读](readings/032-%E7%B8%84%E6%96%87%E4%BA%BA%E3%81%AE%E9%A3%9F%E7%94%9F%E6%B4%BB.html) | 32–33 |
+| 034 | [縄文人の住宅事情](articles/034-%E7%B8%84%E6%96%87%E4%BA%BA%E3%81%AE%E4%BD%8F%E5%AE%85%E4%BA%8B%E6%83%85.md) | [阅读](readings/034-%E7%B8%84%E6%96%87%E4%BA%BA%E3%81%AE%E4%BD%8F%E5%AE%85%E4%BA%8B%E6%83%85.html) | 34–35 |
+| 036 | [縄文人の不思議な風習](articles/036-%E7%B8%84%E6%96%87%E4%BA%BA%E3%81%AE%E4%B8%8D%E6%80%9D%E8%AD%B0%E3%81%AA%E9%A2%A8%E7%BF%92.md) | [阅读](readings/036-%E7%B8%84%E6%96%87%E4%BA%BA%E3%81%AE%E4%B8%8D%E6%80%9D%E8%AD%B0%E3%81%AA%E9%A2%A8%E7%BF%92.html) | 36–37 |
+| 038 | [縄文人の交易範囲](articles/038-%E7%B8%84%E6%96%87%E4%BA%BA%E3%81%AE%E4%BA%A4%E6%98%93%E7%AF%84%E5%9B%B2.md) | [阅读](readings/038-%E7%B8%84%E6%96%87%E4%BA%BA%E3%81%AE%E4%BA%A4%E6%98%93%E7%AF%84%E5%9B%B2.html) | 38–39 |
+| 040 | [縄文人から弥生人へ](articles/040-%E7%B8%84%E6%96%87%E4%BA%BA%E3%81%8B%E3%82%89%E5%BC%A5%E7%94%9F%E4%BA%BA%E3%81%B8.md) | [阅读](readings/040-%E7%B8%84%E6%96%87%E4%BA%BA%E3%81%8B%E3%82%89%E5%BC%A5%E7%94%9F%E4%BA%BA%E3%81%B8.html) | 40–41 |
 | 198 | [陸海交通の発達](articles/198-%E9%99%B8%E6%B5%B7%E4%BA%A4%E9%80%9A%E3%81%AE%E7%99%BA%E9%81%94.md) | [阅读](readings/198-%E9%99%B8%E6%B5%B7%E4%BA%A4%E9%80%9A%E3%81%AE%E7%99%BA%E9%81%94.html) | 190 |
 | 200 | [元禄文化](articles/200-%E5%85%83%E7%A6%84%E6%96%87%E5%8C%96.md) | [阅读](readings/200-%E5%85%83%E7%A6%84%E6%96%87%E5%8C%96.html) | 192–193 |
 | 202 | [享保の改革](articles/202-%E4%BA%AB%E4%BF%9D%E3%81%AE%E6%94%B9%E9%9D%A9.md) | [阅读](readings/202-%E4%BA%AB%E4%BF%9D%E3%81%AE%E6%94%B9%E9%9D%A9.html) | 194–195 |

@@ -1,0 +1,43 @@
+[hidden]{display:none!important}
+html{scroll-behavior:smooth;scroll-padding-top:20px}
+.book-toc{margin:32px 0 48px}
+.toc-heading{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.toc-heading h2,.listening-heading{font:600 23px/1.5 system-ui,sans-serif;margin:0}
+.toc-heading>a{font-size:13px}
+.toc-tools{display:flex;flex-wrap:wrap;gap:16px;align-items:end;padding:18px;background:#f2f5ee;border:1px solid #d5e0d5;border-radius:10px}
+.toc-tools label{font-size:13px;align-items:center;gap:8px}
+.toc-tools .toc-search-label{flex:1;min-width:200px;display:flex;flex-direction:column;align-items:stretch;gap:6px}
+.toc-tools input{font:inherit;padding:9px 12px;border:1px solid #bacdbd;border-radius:6px;background:#fff;color:var(--ink);min-width:0;width:100%}
+.toc-tools select,.toc-tools button{padding:8px 10px;font-size:13px}
+.toc-tools input:focus-visible,summary:focus-visible{outline:2px solid var(--green);outline-offset:4px}
+.toc-chapter{border-bottom:1px solid #d5ded2;scroll-margin-top:20px}
+.toc-chapter:first-of-type{border-top:1px solid #d5ded2}
+.toc-chapter>summary{display:flex;list-style:none;gap:18px;align-items:center;padding:22px 4px;cursor:pointer}
+.toc-chapter>summary::-webkit-details-marker{display:none}
+.toc-chapter>summary::before{content:'+';font-size:24px;font-weight:300;color:var(--green);width:18px;flex-shrink:0}
+.toc-chapter[open]>summary::before{content:'−'}
+.chapter-copy{flex:1;min-width:0}
+.chapter-title{display:block;font:600 23px/1.5 "Hiragino Mincho ProN","Yu Mincho",serif}
+.chapter-number{font:500 12px/1.5 system-ui,sans-serif;color:var(--green);margin-right:12px;white-space:nowrap}
+.chapter-subtitle{display:block;font-size:12px;color:#68776c;line-height:1.8;margin-top:5px}
+.chapter-count{font-size:12px;color:#68776c;white-space:nowrap}
+.toc-list{list-style:none;margin:0;padding:0 0 12px}
+.toc-row{display:grid;grid-template-columns:38px minmax(0,1fr) auto;gap:14px;align-items:start;padding:14px 4px;border-top:1px solid #e8e9df}
+.toc-page{font-size:12px;font-variant-numeric:tabular-nums;color:#7a8073;padding-top:3px}
+.toc-copy{min-width:0;overflow-wrap:anywhere;text-decoration:none;display:block;color:var(--ink)}
+.is-ready .toc-copy{color:var(--green)}
+.toc-title{display:block;font-weight:500;line-height:1.7}
+.is-ready a:hover .toc-title{text-decoration:underline;text-underline-offset:4px}
+.toc-subtitle{display:block;color:#747b70;font-size:12px;line-height:1.8;margin-top:3px}
+.toc-state{font-size:11px;color:#798075;white-space:nowrap;padding-top:4px}
+.is-ready .toc-state{color:var(--green);font-weight:600}
+.toc-row[data-kind="column"] .toc-title{font-size:14px}
+.listening-heading{padding-top:16px;margin-bottom:18px;scroll-margin-top:20px}
+@media(max-width:650px){
+ .site-nav{gap:12px 20px}.book-toc{margin-top:24px}.toc-tools{gap:12px;padding:14px}
+ .toc-tools .toc-search-label{flex-basis:100%;min-width:0}.toc-tools>label:not(.toc-search-label){flex:1}
+ .toc-chapter>summary{gap:10px;padding:18px 0}.chapter-title{font-size:21px}.chapter-number{font-size:11px;margin-right:6px}
+ .chapter-count{font-size:10px}.chapter-subtitle{font-size:11px}.toc-row{grid-template-columns:29px minmax(0,1fr) auto;gap:9px;padding:13px 0}
+ .toc-title{font-size:15px}.toc-state{font-size:10px}.toc-subtitle{font-size:11px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}

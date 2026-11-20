@@ -1,0 +1,952 @@
+{
+  "title": "目次",
+  "page_note": "目录页码逐项核对附件目录照片；与 catalog.json 中既有文件编号和来源页码分别记录，不修改旧文件编号。照片未标出はじめに、索引的页码，记为 null。",
+  "frontmatter": [
+    {
+      "title": "はじめに",
+      "page": null,
+      "source_image": "IMG_8817.avif"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "chapter-1",
+      "number": 1,
+      "title": "原始",
+      "subtitle": "日本人の祖が移入した時代",
+      "page": 21,
+      "entries": [
+        {
+          "page": 22,
+          "title": "人類のルーツ",
+          "subtitle": "飛躍的にさかのぼっていく人類の起源",
+          "kind": "article",
+          "source_image": "IMG_8817.avif"
+        },
+        {
+          "page": 24,
+          "title": "旧石器時代人の生活",
+          "subtitle": "日本人はどのような暮らしをしていたのか",
+          "kind": "article",
+          "source_image": "IMG_8817.avif"
+        },
+        {
+          "page": 26,
+          "title": "縄文時代のはじまり",
+          "subtitle": "しだいにさかのぼっていく縄文時代の草創期",
+          "kind": "article",
+          "source_image": "IMG_8817.avif"
+        },
+        {
+          "page": 28,
+          "title": "縄文文化の特徴",
+          "subtitle": "縄文文化を特徴づけるさまざまな道具",
+          "kind": "article",
+          "source_image": "IMG_8817.avif"
+        },
+        {
+          "page": 30,
+          "title": "縄文土器の変遷",
+          "subtitle": "一万年間の変化を土器から眺める",
+          "kind": "article",
+          "source_image": "IMG_8817.avif"
+        },
+        {
+          "page": 32,
+          "title": "縄文人の食生活",
+          "subtitle": "縄文人はどんなものを食べていたのか",
+          "kind": "article",
+          "source_image": "IMG_8817.avif"
+        },
+        {
+          "page": 34,
+          "title": "縄文人の住宅事情",
+          "subtitle": "縄文人はどんな家に住んでいたのか",
+          "kind": "article",
+          "source_image": "IMG_8817.avif"
+        },
+        {
+          "page": 36,
+          "title": "縄文人の不思議な風習",
+          "subtitle": "土偶、屈葬、抜歯、ボディペインティング、耳輪",
+          "kind": "article",
+          "source_image": "IMG_8817.avif"
+        },
+        {
+          "page": 38,
+          "title": "縄文人の交易範囲",
+          "subtitle": "関東全域に広がる和田峠の黒曜石",
+          "kind": "article",
+          "source_image": "IMG_8817.avif"
+        },
+        {
+          "page": 40,
+          "title": "縄文人から弥生人へ",
+          "subtitle": "どうして日本列島に大量の移民が流入したのか",
+          "kind": "article",
+          "source_image": "IMG_8817.avif"
+        },
+        {
+          "page": 42,
+          "title": "弥生時代のはじまり",
+          "subtitle": "弥生時代はいつはじまり、いつ終わったのか",
+          "kind": "article",
+          "source_image": "IMG_8817.avif"
+        },
+        {
+          "page": 44,
+          "title": "農耕社会の成立",
+          "subtitle": "人々はどのような農耕生活を送っていたのか",
+          "kind": "article",
+          "source_image": "IMG_8817.avif"
+        },
+        {
+          "page": 46,
+          "title": "金属器の使用",
+          "subtitle": "鉄製工具と青銅製祭器の使用",
+          "kind": "article",
+          "source_image": "IMG_8817.avif"
+        },
+        {
+          "page": 48,
+          "title": "弥生人の生活",
+          "subtitle": "昔から魚や貝が大好きだった日本人",
+          "kind": "article",
+          "source_image": "IMG_8818.avif"
+        },
+        {
+          "page": 50,
+          "title": "弥生人の墓地",
+          "subtitle": "多種多様になった弥生人のお墓",
+          "kind": "article",
+          "source_image": "IMG_8818.avif"
+        },
+        {
+          "page": 52,
+          "title": "小国の分立",
+          "subtitle": "中国の史書にみる弥生の小国家",
+          "kind": "article",
+          "source_image": "IMG_8818.avif"
+        },
+        {
+          "page": 54,
+          "title": "邪馬台国",
+          "subtitle": "邪馬台国はどのような国で女王卑弥呼は何者か",
+          "kind": "article",
+          "source_image": "IMG_8818.avif"
+        },
+        {
+          "page": 56,
+          "title": "縄文の風景を一変させた巨大遺跡",
+          "subtitle": "",
+          "kind": "column",
+          "source_image": "IMG_8818.avif"
+        }
+      ]
+    },
+    {
+      "id": "chapter-2",
+      "number": 2,
+      "title": "古代",
+      "subtitle": "貴族が「我が世の春」を謳歌した時代",
+      "page": 57,
+      "entries": [
+        {
+          "page": 58,
+          "title": "古墳と大和政権",
+          "subtitle": "古墳の拡散は大和政権が全国政権になった証拠",
+          "kind": "article",
+          "source_image": "IMG_8818.avif"
+        },
+        {
+          "page": 60,
+          "title": "古墳の構造と特徴",
+          "subtitle": "古墳にはどんな人が葬られたのか",
+          "kind": "article",
+          "source_image": "IMG_8818.avif"
+        },
+        {
+          "page": 62,
+          "title": "朝鮮半島への進出",
+          "subtitle": "大和政権はなぜ朝鮮半島へ勢力を広げたのか",
+          "kind": "article",
+          "source_image": "IMG_8818.avif"
+        },
+        {
+          "page": 64,
+          "title": "国内に流入する大陸文化",
+          "subtitle": "多大な影響を与えた渡来人たち",
+          "kind": "article",
+          "source_image": "IMG_8818.avif"
+        },
+        {
+          "page": 66,
+          "title": "古墳時代人の生活",
+          "subtitle": "神を信じて祈り恐れあがめた日常生活",
+          "kind": "article",
+          "source_image": "IMG_8818.avif"
+        },
+        {
+          "page": 68,
+          "title": "推古天皇の政治",
+          "subtitle": "女帝がめざした中央集権国家",
+          "kind": "article",
+          "source_image": "IMG_8818.avif"
+        },
+        {
+          "page": 70,
+          "title": "遣隋使の派遣",
+          "subtitle": "推古天皇はなぜ対等外交に成功したのか",
+          "kind": "article",
+          "source_image": "IMG_8818.avif"
+        },
+        {
+          "page": 72,
+          "title": "飛鳥文化",
+          "subtitle": "七世紀前半に開花した日本初の仏教文化",
+          "kind": "article",
+          "source_image": "IMG_8818.avif"
+        },
+        {
+          "page": 74,
+          "title": "大化の改新",
+          "subtitle": "なぜ蘇我氏は滅ぼされなければならなかったのか",
+          "kind": "article",
+          "source_image": "IMG_8818.avif"
+        },
+        {
+          "page": 76,
+          "title": "壬申の乱",
+          "subtitle": "なぜ大和政権の豪族は大友皇子を裏切ったのか",
+          "kind": "article",
+          "source_image": "IMG_8818.avif"
+        },
+        {
+          "page": 78,
+          "title": "大宝律令の制定",
+          "subtitle": "律令国家はいかにして形成されたのか",
+          "kind": "article",
+          "source_image": "IMG_8818.avif"
+        },
+        {
+          "page": 80,
+          "title": "班田収授法と農民支配",
+          "subtitle": "律令国家はどのように農民を支配したのか",
+          "kind": "article",
+          "source_image": "IMG_8819.avif"
+        },
+        {
+          "page": 82,
+          "title": "白鳳文化",
+          "subtitle": "天武・持統朝の清新な文化",
+          "kind": "article",
+          "source_image": "IMG_8819.avif"
+        },
+        {
+          "page": 84,
+          "title": "遣唐使の時代",
+          "subtitle": "遣唐使はどのようにして派遣されたのか",
+          "kind": "article",
+          "source_image": "IMG_8819.avif"
+        },
+        {
+          "page": 86,
+          "title": "奈良時代の政界",
+          "subtitle": "めまぐるしく交代する奈良時代の権力者",
+          "kind": "article",
+          "source_image": "IMG_8819.avif"
+        },
+        {
+          "page": 88,
+          "title": "荘園の誕生",
+          "subtitle": "班田収授の法が崩壊し土地の私有が復活する",
+          "kind": "article",
+          "source_image": "IMG_8819.avif"
+        },
+        {
+          "page": 90,
+          "title": "天平文化",
+          "subtitle": "遣唐使の影響を強く受けた国際的な文化",
+          "kind": "article",
+          "source_image": "IMG_8819.avif"
+        },
+        {
+          "page": 92,
+          "title": "桓武天皇の政治",
+          "subtitle": "桓武天皇が行なった二つの政策とは",
+          "kind": "article",
+          "source_image": "IMG_8819.avif"
+        },
+        {
+          "page": 94,
+          "title": "弘仁・貞観文化",
+          "subtitle": "新しい都での新しい仏教文化",
+          "kind": "article",
+          "source_image": "IMG_8819.avif"
+        },
+        {
+          "page": 96,
+          "title": "摂関政治",
+          "subtitle": "藤原北家はどのようにして権力を維持したのか",
+          "kind": "article",
+          "source_image": "IMG_8819.avif"
+        },
+        {
+          "page": 98,
+          "title": "国風文化",
+          "subtitle": "遣唐使の廃止によって生まれた純和風の文化",
+          "kind": "article",
+          "source_image": "IMG_8819.avif"
+        },
+        {
+          "page": 100,
+          "title": "武士の成長と反乱",
+          "subtitle": "朝廷を震撼させた平将門の乱と藤原純友の乱",
+          "kind": "article",
+          "source_image": "IMG_8819.avif"
+        },
+        {
+          "page": 102,
+          "title": "院政の展開",
+          "subtitle": "院政はどんな仕組みの政治なのか",
+          "kind": "article",
+          "source_image": "IMG_8819.avif"
+        },
+        {
+          "page": 104,
+          "title": "保元・平治の乱",
+          "subtitle": "武士なしには政治ができなくなった時代",
+          "kind": "article",
+          "source_image": "IMG_8819.avif"
+        },
+        {
+          "page": 106,
+          "title": "平氏政権",
+          "subtitle": "なぜ平清盛は権力者にのし上がれたのか",
+          "kind": "article",
+          "source_image": "IMG_8819.avif"
+        },
+        {
+          "page": 108,
+          "title": "平安末期の文化",
+          "subtitle": "文化の中央と地方の混合化",
+          "kind": "article",
+          "source_image": "IMG_8819.avif"
+        },
+        {
+          "page": 110,
+          "title": "日本最古の貨幣は和同開珎ではなかった",
+          "subtitle": "",
+          "kind": "column",
+          "source_image": "IMG_8819.avif"
+        }
+      ]
+    },
+    {
+      "id": "chapter-3",
+      "number": 3,
+      "title": "中世",
+      "subtitle": "武士が覇を唱えた時代",
+      "page": 111,
+      "entries": [
+        {
+          "page": 112,
+          "title": "源平の争乱",
+          "subtitle": "なぜ平氏が滅んで源氏が天下を取ったのか",
+          "kind": "article",
+          "source_image": "IMG_8820.avif"
+        },
+        {
+          "page": 114,
+          "title": "鎌倉幕府の成立",
+          "subtitle": "源頼朝の東国政権はどのようなものだったのか",
+          "kind": "article",
+          "source_image": "IMG_8820.avif"
+        },
+        {
+          "page": 116,
+          "title": "北条氏の台頭",
+          "subtitle": "源頼朝の妻北条政子の一族が将軍をしのぐ",
+          "kind": "article",
+          "source_image": "IMG_8820.avif"
+        },
+        {
+          "page": 118,
+          "title": "承久の乱",
+          "subtitle": "幕府は倒せると思った後鳥羽上皇の誤算",
+          "kind": "article",
+          "source_image": "IMG_8820.avif"
+        },
+        {
+          "page": 120,
+          "title": "執権政治の確立",
+          "subtitle": "北条泰時の政治と北条時頼の政治",
+          "kind": "article",
+          "source_image": "IMG_8820.avif"
+        },
+        {
+          "page": 122,
+          "title": "武士の生活",
+          "subtitle": "武士はどのような日常生活を送っていたのか",
+          "kind": "article",
+          "source_image": "IMG_8820.avif"
+        },
+        {
+          "page": 124,
+          "title": "蒙古襲来",
+          "subtitle": "日本人がはじめて体験した侵略の危機",
+          "kind": "article",
+          "source_image": "IMG_8820.avif"
+        },
+        {
+          "page": 126,
+          "title": "得宗専制政治",
+          "subtitle": "鎌倉幕府が衰退した原因をさぐる",
+          "kind": "article",
+          "source_image": "IMG_8820.avif"
+        },
+        {
+          "page": 128,
+          "title": "鎌倉時代の産業",
+          "subtitle": "鎌倉時代の農業・工業・商業はどうだったか",
+          "kind": "article",
+          "source_image": "IMG_8820.avif"
+        },
+        {
+          "page": 130,
+          "title": "鎌倉仏教",
+          "subtitle": "庶民に救いを説いた六人の教祖たち",
+          "kind": "article",
+          "source_image": "IMG_8820.avif"
+        },
+        {
+          "page": 132,
+          "title": "鎌倉文化",
+          "subtitle": "伝統文化に質実な武士の気風が吹きこまれた文化",
+          "kind": "article",
+          "source_image": "IMG_8820.avif"
+        },
+        {
+          "page": 134,
+          "title": "建武の新政",
+          "subtitle": "鎌倉幕府が倒れ天皇による政治が復活する",
+          "kind": "article",
+          "source_image": "IMG_8820.avif"
+        },
+        {
+          "page": 136,
+          "title": "幕府成立と南北朝動乱",
+          "subtitle": "なぜ南北朝の動乱は六十年もつづいたのか",
+          "kind": "article",
+          "source_image": "IMG_8820.avif"
+        },
+        {
+          "page": 138,
+          "title": "室町幕府の発展",
+          "subtitle": "室町幕府を発展に導いた三代将軍義満",
+          "kind": "article",
+          "source_image": "IMG_8820.avif"
+        },
+        {
+          "page": 140,
+          "title": "日明貿易と日朝貿易",
+          "subtitle": "海賊退治からスタートした東アジアの交易",
+          "kind": "article",
+          "source_image": "IMG_8820.avif"
+        },
+        {
+          "page": 142,
+          "title": "北山文化",
+          "subtitle": "文化の担い手は公家から武家へ",
+          "kind": "article",
+          "source_image": "IMG_8820.avif"
+        },
+        {
+          "page": 144,
+          "title": "惣村の形成",
+          "subtitle": "自分たちで自治をはじめた室町時代の農民たち",
+          "kind": "article",
+          "source_image": "IMG_8820.avif"
+        },
+        {
+          "page": 146,
+          "title": "室町時代の農業・商工業",
+          "subtitle": "三毛作が登場し、座が増加し、馬借が活躍",
+          "kind": "article",
+          "source_image": "IMG_8820.avif"
+        },
+        {
+          "page": 148,
+          "title": "永享の乱と嘉吉の乱",
+          "subtitle": "鎌倉府を滅ぼしたくじ引き将軍誅殺される",
+          "kind": "article",
+          "source_image": "IMG_8821.avif"
+        },
+        {
+          "page": 150,
+          "title": "応仁の乱",
+          "subtitle": "戦国時代を招いた果てしない将軍後継者争い",
+          "kind": "article",
+          "source_image": "IMG_8821.avif"
+        },
+        {
+          "page": 152,
+          "title": "東山文化",
+          "subtitle": "政治的に無能な将軍足利義政のすぐれた文化",
+          "kind": "article",
+          "source_image": "IMG_8821.avif"
+        },
+        {
+          "page": 154,
+          "title": "諸都市の発達",
+          "subtitle": "ベニスのような自由都市が生まれた室町時代",
+          "kind": "article",
+          "source_image": "IMG_8821.avif"
+        },
+        {
+          "page": 156,
+          "title": "戦国大名の登場",
+          "subtitle": "戦国大名はどのようにして生まれたのか",
+          "kind": "article",
+          "source_image": "IMG_8821.avif"
+        },
+        {
+          "page": 158,
+          "title": "戦国大名の分国政治",
+          "subtitle": "戦国大名は分国をどのように支配したのか",
+          "kind": "article",
+          "source_image": "IMG_8821.avif"
+        },
+        {
+          "page": 160,
+          "title": "名医も驚く武田信玄の漢方薬",
+          "subtitle": "",
+          "kind": "column",
+          "source_image": "IMG_8821.avif"
+        }
+      ]
+    },
+    {
+      "id": "chapter-4",
+      "number": 4,
+      "title": "近世",
+      "subtitle": "身分制度が固定化した時代",
+      "page": 161,
+      "entries": [
+        {
+          "page": 162,
+          "title": "ヨーロッパ人の来航",
+          "subtitle": "戦国時代の日本にヨーロッパ人が与えた影響",
+          "kind": "article",
+          "source_image": "IMG_8821.avif"
+        },
+        {
+          "page": 164,
+          "title": "織田信長の天下平定事業",
+          "subtitle": "なぜ信長は統一事業に乗り出せたのか",
+          "kind": "article",
+          "source_image": "IMG_8821.avif"
+        },
+        {
+          "page": 166,
+          "title": "豊臣秀吉の天下統一",
+          "subtitle": "どのようにして秀吉は日本を統一したのか",
+          "kind": "article",
+          "source_image": "IMG_8821.avif"
+        },
+        {
+          "page": 168,
+          "title": "秀吉の兵農分離政策",
+          "subtitle": "非常に大きな意味をもつ太閤検地と刀狩",
+          "kind": "article",
+          "source_image": "IMG_8821.avif"
+        },
+        {
+          "page": 170,
+          "title": "桃山文化",
+          "subtitle": "豪華壮大で西洋の影響を受けた現実的な文化",
+          "kind": "article",
+          "source_image": "IMG_8821.avif"
+        },
+        {
+          "page": 172,
+          "title": "江戸幕府の成立",
+          "subtitle": "関ヶ原の戦いで勝利した家康、幕府を開く",
+          "kind": "article",
+          "source_image": "IMG_8821.avif"
+        },
+        {
+          "page": 174,
+          "title": "江戸幕府の組織",
+          "subtitle": "二百六十年間つづいた江戸幕府の政治組織",
+          "kind": "article",
+          "source_image": "IMG_8821.avif"
+        },
+        {
+          "page": 176,
+          "title": "幕藩体制の確立",
+          "subtitle": "幕府は大名や朝廷をどのように統制したか",
+          "kind": "article",
+          "source_image": "IMG_8821.avif"
+        },
+        {
+          "page": 178,
+          "title": "幕府の農民統制",
+          "subtitle": "年貢を確保するための農民統制の方法",
+          "kind": "article",
+          "source_image": "IMG_8821.avif"
+        },
+        {
+          "page": 180,
+          "title": "士農工商",
+          "subtitle": "江戸時代の身分秩序はどうなっていたか",
+          "kind": "article",
+          "source_image": "IMG_8822.avif"
+        },
+        {
+          "page": 182,
+          "title": "鎖国と長崎貿易",
+          "subtitle": "日本は本当に国を閉ざしていたのか",
+          "kind": "article",
+          "source_image": "IMG_8822.avif"
+        },
+        {
+          "page": 184,
+          "title": "寛永期の文化",
+          "subtitle": "壮麗な日光東照宮をもつ文化",
+          "kind": "article",
+          "source_image": "IMG_8822.avif"
+        },
+        {
+          "page": 186,
+          "title": "文治政治の展開",
+          "subtitle": "将軍綱吉が出した生類憐みの令の狂気",
+          "kind": "article",
+          "source_image": "IMG_8822.avif"
+        },
+        {
+          "page": 188,
+          "title": "正徳の治",
+          "subtitle": "将軍家宣・家継時代の新井白石の理想政治",
+          "kind": "article",
+          "source_image": "IMG_8822.avif"
+        },
+        {
+          "page": 190,
+          "title": "陸海交通の発達",
+          "subtitle": "平和な時代が到来し交通が整備される",
+          "kind": "article",
+          "source_image": "IMG_8822.avif"
+        },
+        {
+          "page": 192,
+          "title": "元禄文化",
+          "subtitle": "現実主義的な上方町人の洗練された文化",
+          "kind": "article",
+          "source_image": "IMG_8822.avif"
+        },
+        {
+          "page": 194,
+          "title": "享保の改革",
+          "subtitle": "紀伊藩出身の八代将軍吉宗の財政再建改革",
+          "kind": "article",
+          "source_image": "IMG_8822.avif"
+        },
+        {
+          "page": 196,
+          "title": "一揆と打ちこわし",
+          "subtitle": "飢饉のときに増加した一揆と打ちこわし",
+          "kind": "article",
+          "source_image": "IMG_8822.avif"
+        },
+        {
+          "page": 198,
+          "title": "田沼政治",
+          "subtitle": "本当に田沼意次の政治は悪政だったのか",
+          "kind": "article",
+          "source_image": "IMG_8822.avif"
+        },
+        {
+          "page": 200,
+          "title": "寛政の改革",
+          "subtitle": "将軍吉宗の孫の、祖父をまねた反動政治",
+          "kind": "article",
+          "source_image": "IMG_8822.avif"
+        },
+        {
+          "page": 202,
+          "title": "列強諸国の接近",
+          "subtitle": "産業革命をへて日本に来航する列強諸国",
+          "kind": "article",
+          "source_image": "IMG_8822.avif"
+        },
+        {
+          "page": 204,
+          "title": "文化・文政時代",
+          "subtitle": "将軍家斉のいいかげんな腐敗政治",
+          "kind": "article",
+          "source_image": "IMG_8822.avif"
+        },
+        {
+          "page": 206,
+          "title": "化政文化",
+          "subtitle": "江戸の町人を担い手とする通俗的・享楽的文化",
+          "kind": "article",
+          "source_image": "IMG_8822.avif"
+        },
+        {
+          "page": 208,
+          "title": "天保の改革",
+          "subtitle": "幕府の権威を高めようとして失敗した水野忠邦",
+          "kind": "article",
+          "source_image": "IMG_8822.avif"
+        },
+        {
+          "page": 210,
+          "title": "鎖国時代、日本の銅が中国の貨幣経済を支えた",
+          "subtitle": "",
+          "kind": "column",
+          "source_image": "IMG_8822.avif"
+        }
+      ]
+    },
+    {
+      "id": "chapter-5",
+      "number": 5,
+      "title": "近現代",
+      "subtitle": "民衆が躍動した時代",
+      "page": 211,
+      "entries": [
+        {
+          "page": 212,
+          "title": "開国と貿易の開始",
+          "subtitle": "ペリーの強い要求により日本は開国する",
+          "kind": "article",
+          "source_image": "IMG_8823.avif"
+        },
+        {
+          "page": 214,
+          "title": "尊王攘夷と公武合体",
+          "subtitle": "複雑な政治運動をどう理解したらよいのか",
+          "kind": "article",
+          "source_image": "IMG_8823.avif"
+        },
+        {
+          "page": 216,
+          "title": "幕府の滅亡",
+          "subtitle": "薩摩と長州は手をにぎり、将軍慶喜は政権を返上",
+          "kind": "article",
+          "source_image": "IMG_8823.avif"
+        },
+        {
+          "page": 218,
+          "title": "戊辰戦争",
+          "subtitle": "新政府の日本統一戦争はどう進んでいったか",
+          "kind": "article",
+          "source_image": "IMG_8823.avif"
+        },
+        {
+          "page": 220,
+          "title": "新政府の中央集権政策",
+          "subtitle": "版籍奉還と廃藩置県により政治的統一が達成",
+          "kind": "article",
+          "source_image": "IMG_8823.avif"
+        },
+        {
+          "page": 222,
+          "title": "地租改正と殖産興業政策",
+          "subtitle": "富国強兵をめざし明治政府が遂行した諸政策",
+          "kind": "article",
+          "source_image": "IMG_8823.avif"
+        },
+        {
+          "page": 224,
+          "title": "自由民権運動の展開",
+          "subtitle": "自由民権運動はどのように広がっていったか",
+          "kind": "article",
+          "source_image": "IMG_8823.avif"
+        },
+        {
+          "page": 226,
+          "title": "民権運動の崩壊と再生",
+          "subtitle": "松方デフレにより激化した自由民権運動",
+          "kind": "article",
+          "source_image": "IMG_8823.avif"
+        },
+        {
+          "page": 228,
+          "title": "憲法制定と議会開設",
+          "subtitle": "はじめて行なわれた衆議院選挙の結果は？",
+          "kind": "article",
+          "source_image": "IMG_8823.avif"
+        },
+        {
+          "page": 230,
+          "title": "条約改正交渉",
+          "subtitle": "不平等条約改正に執念をみせた歴代外務大臣",
+          "kind": "article",
+          "source_image": "IMG_8823.avif"
+        },
+        {
+          "page": 232,
+          "title": "日清戦争",
+          "subtitle": "朝鮮半島をめぐって発生した日清戦争",
+          "kind": "article",
+          "source_image": "IMG_8823.avif"
+        },
+        {
+          "page": 234,
+          "title": "日露戦争",
+          "subtitle": "戦争の講和条約に庶民の不満が大爆発",
+          "kind": "article",
+          "source_image": "IMG_8823.avif"
+        },
+        {
+          "page": 236,
+          "title": "日韓併合",
+          "subtitle": "日本は朝鮮半島を植民地とし大陸へも進出",
+          "kind": "article",
+          "source_image": "IMG_8823.avif"
+        },
+        {
+          "page": 238,
+          "title": "産業革命",
+          "subtitle": "日清・日露戦争前後に起こった二度の産業革命",
+          "kind": "article",
+          "source_image": "IMG_8823.avif"
+        },
+        {
+          "page": 240,
+          "title": "大正政変",
+          "subtitle": "第一次護憲運動で桂内閣退陣に追いこまれる",
+          "kind": "article",
+          "source_image": "IMG_8823.avif"
+        },
+        {
+          "page": 242,
+          "title": "第一次世界大戦",
+          "subtitle": "思わぬ漁夫の利を得た日本人",
+          "kind": "article",
+          "source_image": "IMG_8823.avif"
+        },
+        {
+          "page": 244,
+          "title": "護憲三派内閣と普通選挙",
+          "subtitle": "国民の政治参加の願いが清浦内閣を倒す",
+          "kind": "article",
+          "source_image": "IMG_8823.avif"
+        },
+        {
+          "page": 246,
+          "title": "恐慌の時代",
+          "subtitle": "戦後恐慌、金融恐慌、昭和恐慌と悲惨な十年間",
+          "kind": "article",
+          "source_image": "IMG_8823.avif"
+        },
+        {
+          "page": 248,
+          "title": "軍部の台頭",
+          "subtitle": "満州事変、二・二六事件など独走する軍部",
+          "kind": "article",
+          "source_image": "IMG_8824.avif"
+        },
+        {
+          "page": 250,
+          "title": "日中戦争",
+          "subtitle": "泥沼化した戦争に苦しくなる国民生活",
+          "kind": "article",
+          "source_image": "IMG_8824.avif"
+        },
+        {
+          "page": 252,
+          "title": "太平洋戦争",
+          "subtitle": "大国アメリカを相手にはじめた勝ち目なき戦争",
+          "kind": "article",
+          "source_image": "IMG_8824.avif"
+        },
+        {
+          "page": 254,
+          "title": "日本の敗戦",
+          "subtitle": "ポツダム宣言を受諾して無条件降伏する",
+          "kind": "article",
+          "source_image": "IMG_8824.avif"
+        },
+        {
+          "page": 256,
+          "title": "日本の民主化",
+          "subtitle": "ＧＨＱを中心に一挙に断行された日本の民主化",
+          "kind": "article",
+          "source_image": "IMG_8824.avif"
+        },
+        {
+          "page": 258,
+          "title": "日本の独立",
+          "subtitle": "サンフランシスコ平和条約で国際社会復帰",
+          "kind": "article",
+          "source_image": "IMG_8824.avif"
+        },
+        {
+          "page": 260,
+          "title": "日本の経済復興",
+          "subtitle": "奇跡的な右肩上がりの経済復興",
+          "kind": "article",
+          "source_image": "IMG_8824.avif"
+        },
+        {
+          "page": 262,
+          "title": "明治政府のすさまじいキリシタン弾圧",
+          "subtitle": "",
+          "kind": "column",
+          "source_image": "IMG_8824.avif"
+        }
+      ]
+    }
+  ],
+  "appendix": [
+    {
+      "page": 264,
+      "title": "歴代摂政・関白",
+      "source_image": "IMG_8824.avif"
+    },
+    {
+      "page": 266,
+      "title": "鎌倉幕府北条氏歴代執権",
+      "source_image": "IMG_8824.avif"
+    },
+    {
+      "page": 267,
+      "title": "室町幕府足利氏歴代将軍",
+      "source_image": "IMG_8824.avif"
+    },
+    {
+      "page": 268,
+      "title": "江戸幕府徳川氏歴代将軍",
+      "source_image": "IMG_8824.avif"
+    },
+    {
+      "page": 269,
+      "title": "方位と時刻の表示",
+      "source_image": "IMG_8824.avif"
+    },
+    {
+      "page": 270,
+      "title": "旧国名地図",
+      "source_image": "IMG_8824.avif"
+    },
+    {
+      "page": 272,
+      "title": "歴代内閣総理大臣",
+      "source_image": "IMG_8824.avif"
+    },
+    {
+      "page": 274,
+      "title": "年表",
+      "source_image": "IMG_8824.avif"
+    },
+    {
+      "page": null,
+      "title": "索引",
+      "source_image": "IMG_8824.avif"
+    }
+  ]
+}

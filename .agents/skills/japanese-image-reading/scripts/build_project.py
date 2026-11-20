@@ -6,6 +6,7 @@ import hashlib
 import html
 import json
 import re
+import runpy
 import tempfile
 from pathlib import Path
 from urllib.parse import quote
@@ -98,6 +99,9 @@ def sync_collection(root):
                     f'{len(entries)} 篇日本史短文：' + '、'.join(f'{g} {n} 篇' for g, n in groups.items()) + '。', readme, count=1)
     readme_path.write_text(readme, encoding='utf-8')
     dump(root / 'catalog.json', entries)
+    # Keep the complete photographed contents and its reading links up to date.
+    if (root / 'book-toc.json').is_file():
+        runpy.run_path(str(root / 'scripts' / 'build_toc.py'))['sync_toc'](root)
 
 
 async def generate_audio(root, article, force=False):
